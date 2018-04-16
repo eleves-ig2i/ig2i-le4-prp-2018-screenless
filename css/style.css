@@ -1,0 +1,138 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+ 
+  height: auto;
+  line-height: 0;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.portrait {
+  width:150px;  
+  height: 150px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.title-color {
+  color: #005050;
+}
+
+.text-color {
+  color: #007070;
+}
+
+.mi-transparent {
+  opacity: 0.3;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.info-contact {
+  font-size: 1rem;
+}
+
+.phrase-accroche {
+  font-size: 3.2rem;
+  display: none;
+}
+
+.titre {
+  margin-top: 10vh;
+  display: none;
+}
+
+.carte {
+  margin-top: 2vh;
+}
+
+.sizeup {
+  font-size: 1.2em;
+}
+
+.addr {
+  margin-bottom: none;
+  font-size: 1.2em;
+  line-height:1.25em;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
+.imgparallax {
+  width: 100%;
+}
+
+.text-align-right {
+  
+  position: absolute;
+  text-align: right;
+  width: 98%;
+}
+
+.black {
+  color: #000;
+}
+
+.timeline {
+  margin-top: 2em;
+}
