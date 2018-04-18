@@ -136,3 +136,7 @@ footer.page-footer {
 .timeline {
   margin-top: 2em;
 }
+
+#transiTexture {
+  min-height: 5em;
+}
