@@ -140,3 +140,15 @@ footer.page-footer {
 #transiTexture {
   min-height: 5em;
 }
+
+.imgDots {
+  width:150px; 
+}
+
+.footer {
+  background-color: #D3D3D3;
+}
+
+.text-white {
+  color: #000000;
+}
