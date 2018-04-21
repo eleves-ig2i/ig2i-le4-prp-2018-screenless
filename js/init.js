@@ -12,6 +12,13 @@
     $('#phrase-accroche').fadeIn("slow");
 
 
+    $("#tooltiptext1").hide();
+    $("#tooltiptext2").hide();
+    $("#tooltiptext3").hide();
+    $("#tooltiptext4").hide();
+    $("#tooltiptext5").hide();
+
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
